@@ -21,3 +21,8 @@ console.log(jsonConvert);
 // json data to obj
 const plaintext = JSON.parse(jsonConvert);
 console.log(plaintext)
+
+const keys = Object.keys(person);
+const value = Object.values(person);
+console.log(keys)
+console.log(value)
